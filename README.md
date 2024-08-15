@@ -1,7 +1,5 @@
 # TravelBookingWebsite
 Travel booking website , simple front end and databse connectivity with login and sign up page 
-Here's a LinkedIn project description for your travel booking website:
-
 
 **Travel Booking Website**
 
