@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+.aboutimg{
+  width: 100%;
+  height: 375px!important;
+}
+.card-img-top{
+  height: 220px!important;
+}
+
+/* Make the image fully responsive */
+.carousel-inner img {
+  width: 100%;
+  height: 90vh;
+}
+
+
+
+
+
+
+.fluid-container{
+  padding: 1em;
+  column-count: 4;
+  margin-bottom: 50px;
+}
+.img1{
+  width: 100%;
+  margin-bottom: 1em;
+}
+@media(max-width: 800px){
+  .fluid-container{
+    column-count: 3;
+  }
+}
+@media(max-width: 600px){
+  .fluid-container{
+    column-count: 2;
+  }
+}
+@media(max-width: 400px){
+  .fluid-container{
+    column-count: 1;
+  }
+}
+.img1 {
+  filter: grayscale(0) brightness(1);
+}
+.img1{
+filter: grayscale(1) brightness(0.5);
+border-radius: 5px;
+cursor: pointer;
+transition: 0.3s linear;
+}
+.img1:hover {
+filter: grayscale(0);
+}
+
+
+
+
